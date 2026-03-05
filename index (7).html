@@ -1,0 +1,99 @@
+<!DOCTYPE html><html lang="ar" dir="rtl">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>روائع القرآن والسنة</title>
+
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.4.0/dist/tailwind.min.css" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&family=Scheherazade+New&display=swap" rel="stylesheet">
+
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<style>
+
+body{margin:0;font-family:'Cairo',sans-serif;background:#0f172a;color:white;overflow-x:hidden;}
+
+#particles-js{position:fixed;top:0;left:0;width:100%;height:100%;z-index:0;}
+
+.main-content{position:relative; z-index:10; display:flex; flex-direction:column; align-items:center; justify-content:flex-start; min-height:100vh;}
+
+.bismillah{font-family:'Scheherazade New', serif;font-size:2rem;margin-top:2rem;color:#facc15;text-shadow:0 0 15px #fbbf24,0 0 30px #fcd34d;animation:glow 2s ease-in-out infinite alternate;}
+
+.hero-title{font-size:3rem;font-weight:900;color:#fbbf24;text-shadow:0 0 20px #fbbf24,0 0 40px #fcd34d,0 0 60px #fbbf24;animation:glow 2s ease-in-out infinite alternate;text-align:center;margin:1rem 0;}
+
+@keyframes glow{0%{text-shadow:0 0 20px #fbbf24,0 0 40px #fcd34d}50%{text-shadow:0 0 30px #fbbf24,0 0 60px #fcd34d}100%{text-shadow:0 0 20px #fbbf24,0 0 40px #fcd34d}}
+
+.social-buttons{display:flex;gap:2rem;justify-content:center;margin-top:2rem;flex-wrap:wrap;}
+
+.btn{display:flex;align-items:center;justify-center;gap:0.5rem;padding:1rem 1.5rem;border-radius:20px;transition:0.4s;text-decoration:none;box-shadow:0 8px 30px rgba(0,0,0,0.5);font-weight:700;backdrop-filter:blur(5px);}
+
+.btn:hover{transform:scale(1.2);box-shadow:0 15px 40px rgba(255,203,53,0.8);filter:brightness(1.3);}
+
+.icon-img{width:55px;height:55px;transition:transform 0.3s, filter 0.3s;}
+
+.icon-img:hover{transform:scale(1.4) rotate(15deg);filter:drop-shadow(0 0 20px #fcd34d);}
+
+.card{background:rgba(255,255,255,0.05);padding:2rem;margin-top:3rem;border-radius:20px;text-align:center;font-size:1.4rem;color:#fcd34d;box-shadow:0 10px 40px rgba(0,0,0,0.5);animation:cardGlow 4s ease-in-out infinite alternate;}
+
+@keyframes cardGlow{0%{box-shadow:0 10px 40px rgba(0,0,0,0.3)}100%{box-shadow:0 14px 50px rgba(255,203,53,0.7)}}
+
+[data-aos]{opacity:0;transform:translateY(40px);transition-property:opacity, transform;transition-duration:900ms;}
+
+[data-aos].aos-animate{opacity:1;transform:translateY(0);}
+
+</style>
+
+</head>
+
+<body><div id="particles-js"></div>
+
+<div class="main-content" data-aos="fade-up"><div class="bismillah" data-aos="fade-down" data-aos-duration="1500">بسم الله الرحمن الرحيم</div>
+
+<h1 class="hero-title" data-aos="fade-up" data-aos-duration="2000">روائع القرآن والسنة</h1>
+
+<p class="text-yellow-300 mb-8 text-lg" style="text-align:center;" data-aos="fade-up" data-aos-duration="2000">صفحة تحتوي على جميع روابط التواصل والقناة مع لمسات احترافية ديناميكية</p><section class="social-buttons" data-aos="fade-up" data-aos-delay="200">
+
+<a href="https://www.youtube.com/channel/UCECs2NiqlDviDbQJGD1Xa-Q?sub_confirmation=1" target="_blank" class="btn" style="background:#ff0000;color:white;"><img src="https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg" class="icon-img">اشترك في اليوتيوب</a>
+
+<a href="https://www.facebook.com/share/17EnNTEQj6/" target="_blank" class="btn" style="background:#1877f2;color:white;"><img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" class="icon-img">فيسبوك</a>
+
+<a href="https://www.instagram.com/rwaa_alquran70?igsh=MW91bTV1ODR6andieg==" target="_blank" class="btn" style="background:#e4405f;color:white;"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" class="icon-img">انستغرام</a>
+
+</section><section class="max-w-md text-center mt-16 px-6" data-aos="fade-up" data-aos-delay="400">
+
+<div class="card rounded-xl shadow-lg" data-aos="fade-up" data-aos-duration="1500">اذكر الله رب العالمين</div>
+
+</section></div><script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script><script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script><script>
+
+particlesJS("particles-js", {
+
+  "particles": {
+
+    "number": {"value":80},
+
+    "color": {"value":"#fcd34d"},
+
+    "shape": {"type":"circle"},
+
+    "opacity": {"value":0.5},
+
+    "size": {"value":3},
+
+    "line_linked": {"enable":true,"distance":150,"color":"#fcd34d","opacity":0.4,"width":1},
+
+    "move": {"enable":true,"speed":2}
+
+  }
+
+});
+
+AOS.init();
+
+</script></body>
+
+</html>
